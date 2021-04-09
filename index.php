@@ -4,14 +4,7 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> Free Psycholog Medical Hospital Website Template | Smarteyeapps.com</title>
-
-    <link rel="shortcut icon" href="wp-content/themes/psychology/assets/images/fav.jpg">
-    <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/css/fontawsom-all.min.css">
-    <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/plugins/slider/css/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/plugins/slider/css/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/css/style.css" />
+    <?php wp_head(); ?>
 </head>
 
 <body>
@@ -333,14 +326,7 @@
 
         </div>
     
+        <?php wp_footer(); ?>
     </body>
-
-<script src="wp-content/themes/psychology/assets/js/jquery-3.2.1.min.js"></script>
-<script src="wp-content/themes/psychology/assets/js/popper.min.js"></script>
-<script src="wp-content/themes/psychology/assets/js/bootstrap.min.js"></script>
-<script src="wp-content/themes/psychology/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
-<script src="wp-content/themes/psychology/assets/plugins/slider/js/owl.carousel.min.js"></script>
-<script src="wp-content/themes/psychology/assets/js/script.js"></script>
-
 
 </html>

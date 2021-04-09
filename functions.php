@@ -1,5 +1,47 @@
 <?php 
 
+// css
+function load_stylesheets(){
+    wp_register_style('bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), false, 'all');
+    wp_enqueue_style('bootstrap');
+
+    wp_register_style('fontawesome', get_template_directory_uri() . '/assets/css/fontawsom-all.min.css', array(), false, 'all');
+    wp_enqueue_style('fontawesome');
+
+    wp_register_style('owl.carousel', get_template_directory_uri() . '/assets/plugins/slider/css/owl.carousel.min.css', array(), false, 'all');
+    wp_enqueue_style('owl.carousel');
+
+    wp_register_style('owl.default', get_template_directory_uri() . '/assets/plugins/slider/css/owl.theme.default.css', array(), false, 'all');
+    wp_enqueue_style('owl.default');
+
+    wp_register_style('style', get_template_directory_uri() . '/assets/css/style.css?v='.time(), array(), false, 'all');
+    wp_enqueue_style('style');
+}
+add_action('wp_enqueue_scripts', 'load_stylesheets');
+
+// JS
+function load_scripts(){
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', get_template_directory_uri() . '/assets/js/jquery-3.2.1.min.js', array(), 1, true);
+    wp_enqueue_script('jquery');
+
+    wp_register_script('popper', get_template_directory_uri() . '/assets/js/popper.min.js', array(), 1, true);
+    wp_enqueue_script('popper');
+
+    wp_register_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), 1, true);
+    wp_enqueue_script('bootstrap');
+
+    wp_register_script('scrolltofixed', get_template_directory_uri() . '/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js', array(), 1, true);
+    wp_enqueue_script('scrolltofixed');
+
+    wp_register_script('owl.carousel', get_template_directory_uri() . '/assets/plugins/slider/js/owl.carousel.min.js', array(), 1, true);
+    wp_enqueue_script('owl.carousel');
+
+    wp_register_script('customjs', get_template_directory_uri() . '/assets/js/script.js', array(), 1, true);
+    wp_enqueue_script('customjs');
+}
+add_action('wp_enqueue_scripts', 'load_scripts');
+
 // images
 add_theme_support('post-thumbnails');
 
