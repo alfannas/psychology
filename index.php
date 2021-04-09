@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row nav-ro">
                    <div class="col-lg-3 col-md-4 col-sm-12">
-                       <img src="wp-content/themes/psychology/assets/images/logo.jpg" alt="">
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.jpg" alt="">
                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
                    </div>
                    <div id="menu" class="col-lg-7 col-md-8 d-none d-md-block no-padding">
@@ -43,7 +43,7 @@
         <div class="owl-carousel ">
             <div class="slider-img">
                 <div class="item">
-                    <div class="slider-img"><img src="wp-content/themes/psychology/assets/images/slider/slider-1.jpg" alt=""></div>
+                    <div class="slider-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slider/slider-1.jpg" alt=""></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="wp-content/themes/psychology/assets/images/slider/slider-2.jpg" alt=""></div>
+                <div class="slider-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slider/slider-2.jpg" alt=""></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"> <img src="wp-content/themes/psychology/assets/images/slider/slider-3.jpg" alt=""></div>
+                <div class="slider-img"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slider/slider-3.jpg" alt=""></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
@@ -99,7 +99,7 @@
   					<div class="col-lg-4 col-md-6 blog-smk">
 						<div class="blog-single">
 
-								<img src="wp-content/themes/psychology/assets/images/services/service-1.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-1.jpg" alt="">
 
 							<div class="blog-single-det">
 							
@@ -114,7 +114,7 @@
 					<div class="col-lg-4 col-md-6 blog-smk">
 						<div class="blog-single">
 
-								<img src="wp-content/themes/psychology/assets/images/services/service-2.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-2.jpg" alt="">
 
 							<div class="blog-single-det">
 								
@@ -130,7 +130,7 @@
 					<div class="col-lg-4 col-md-6 blog-smk">
 						<div class="blog-single">
 
-								<img src="wp-content/themes/psychology/assets/images/services/service-3.jpg" alt="">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-3.jpg" alt="">
 
 							<div class="blog-single-det">
 							
@@ -164,7 +164,7 @@
 
 
                     <div class="col-md-6 col-sm-12 doc-img">
-                        <img  src="wp-content/themes/psychology/assets/images/doctt.png" alt="">
+                        <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/doctt.png" alt="">
                     </div>
                     <div class="col-md-6 col-sm-12 doc-det">
                         <h2>Hello, I’m Doctor Sanjay</h2>
@@ -229,31 +229,31 @@
   	        <div class="row">
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="wp-content/themes/psychology/assets/images/session/therapy-1.jpg" alt="">
+  	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-1.jpg" alt="">
   	                    <p>Individual Therapy</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="wp-content/themes/psychology/assets/images/session/therapy-2.jpg" alt="">
+  	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-2.jpg" alt="">
   	                    <p>Cuple Therapy</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="wp-content/themes/psychology/assets/images/session/therapy-3.jpg" alt="">
+  	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-3.jpg" alt="">
   	                    <p>online Session</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="wp-content/themes/psychology/assets/images/session/therapy-4.jpg" alt="">
+  	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-4.jpg" alt="">
   	                    <p>Group Therapy</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="wp-content/themes/psychology/assets/images/session/therapy-5.jpg" alt="">
+  	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-5.jpg" alt="">
   	                    <p>All Age Group</p>
   	                </div>
   	            </div>
