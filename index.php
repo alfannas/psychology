@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> Free Psycholog Medical Hospital Website Template | Smarteyeapps.com</title>
 
-    <link rel="shortcut icon" href="assets/images/fav.jpg">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
-    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="wp-content/themes/psychology/assets/images/fav.jpg">
+    <link rel="stylesheet" href="wp-content/themes/psychology/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="wp-content/themes/psychology/assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" href="wp-content/themes/psychology/assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="wp-content/themes/psychology/assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/css/style.css" />
 </head>
 
 <body>
@@ -23,7 +23,7 @@
             <div class="container">
                 <div class="row nav-ro">
                    <div class="col-lg-3 col-md-4 col-sm-12">
-                       <img src="assets/images/logo.jpg" alt="">
+                       <img src="wp-content/themes/psychology/assets/images/logo.jpg" alt="">
                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
                    </div>
                    <div id="menu" class="col-lg-7 col-md-8 d-none d-md-block no-padding">
@@ -50,7 +50,7 @@
         <div class="owl-carousel ">
             <div class="slider-img">
                 <div class="item">
-                    <div class="slider-img"><img src="assets/images/slider/slider-1.jpg" alt=""></div>
+                    <div class="slider-img"><img src="wp-content/themes/psychology/assets/images/slider/slider-1.jpg" alt=""></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
@@ -65,7 +65,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"><img src="assets/images/slider/slider-2.jpg" alt=""></div>
+                <div class="slider-img"><img src="wp-content/themes/psychology/assets/images/slider/slider-2.jpg" alt=""></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="slider-img"> <img src="assets/images/slider/slider-3.jpg" alt=""></div>
+                <div class="slider-img"> <img src="wp-content/themes/psychology/assets/images/slider/slider-3.jpg" alt=""></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
@@ -106,7 +106,7 @@
   					<div class="col-lg-4 col-md-6 blog-smk">
 						<div class="blog-single">
 
-								<img src="assets/images/services/service-1.jpg" alt="">
+								<img src="wp-content/themes/psychology/assets/images/services/service-1.jpg" alt="">
 
 							<div class="blog-single-det">
 							
@@ -121,7 +121,7 @@
 					<div class="col-lg-4 col-md-6 blog-smk">
 						<div class="blog-single">
 
-								<img src="assets/images/services/service-2.jpg" alt="">
+								<img src="wp-content/themes/psychology/assets/images/services/service-2.jpg" alt="">
 
 							<div class="blog-single-det">
 								
@@ -137,7 +137,7 @@
 					<div class="col-lg-4 col-md-6 blog-smk">
 						<div class="blog-single">
 
-								<img src="assets/images/services/service-3.jpg" alt="">
+								<img src="wp-content/themes/psychology/assets/images/services/service-3.jpg" alt="">
 
 							<div class="blog-single-det">
 							
@@ -171,7 +171,7 @@
 
 
                     <div class="col-md-6 col-sm-12 doc-img">
-                        <img  src="assets/images/doctt.png" alt="">
+                        <img  src="wp-content/themes/psychology/assets/images/doctt.png" alt="">
                     </div>
                     <div class="col-md-6 col-sm-12 doc-det">
                         <h2>Hello, I’m Doctor Sanjay</h2>
@@ -236,31 +236,31 @@
   	        <div class="row">
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="assets/images/session/therapy-1.jpg" alt="">
+  	                    <img src="wp-content/themes/psychology/assets/images/session/therapy-1.jpg" alt="">
   	                    <p>Individual Therapy</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="assets/images/session/therapy-2.jpg" alt="">
+  	                    <img src="wp-content/themes/psychology/assets/images/session/therapy-2.jpg" alt="">
   	                    <p>Cuple Therapy</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="assets/images/session/therapy-3.jpg" alt="">
+  	                    <img src="wp-content/themes/psychology/assets/images/session/therapy-3.jpg" alt="">
   	                    <p>online Session</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="assets/images/session/therapy-4.jpg" alt="">
+  	                    <img src="wp-content/themes/psychology/assets/images/session/therapy-4.jpg" alt="">
   	                    <p>Group Therapy</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="assets/images/session/therapy-5.jpg" alt="">
+  	                    <img src="wp-content/themes/psychology/assets/images/session/therapy-5.jpg" alt="">
   	                    <p>All Age Group</p>
   	                </div>
   	            </div>
@@ -335,12 +335,12 @@
     
     </body>
 
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
-<script src="assets/plugins/slider/js/owl.carousel.min.js"></script>
-<script src="assets/js/script.js"></script>
+<script src="wp-content/themes/psychology/assets/js/jquery-3.2.1.min.js"></script>
+<script src="wp-content/themes/psychology/assets/js/popper.min.js"></script>
+<script src="wp-content/themes/psychology/assets/js/bootstrap.min.js"></script>
+<script src="wp-content/themes/psychology/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="wp-content/themes/psychology/assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="wp-content/themes/psychology/assets/js/script.js"></script>
 
 
 </html>
