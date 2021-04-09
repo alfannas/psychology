@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> Free Psycholog Medical Hospital Website Template | Smarteyeapps.com</title>
 
     <link rel="shortcut icon" href="wp-content/themes/psychology/assets/images/fav.jpg">
-    <link rel="stylesheet" href="wp-content/themes/psychology/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="wp-content/themes/psychology/assets/css/fontawsom-all.min.css">
-    <link rel="stylesheet" href="wp-content/themes/psychology/assets/plugins/slider/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="wp-content/themes/psychology/assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/plugins/slider/css/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="wp-content/themes/psychology/assets/css/style.css" />
 </head>
 
