@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row nav-ro">
                    <div class="col-lg-3 col-md-4 col-sm-12">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.jpg" alt="">
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-horizontal.png" alt="" >
                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
                    </div>
                    <div id="menu" class="col-lg-7 col-md-8 d-none d-md-block no-padding">
@@ -313,7 +313,7 @@
     </footer>
     <div class="copy">
             <div class="container">
-                <a href="https://www.smarteyeapps.com/">2015 &copy; All Rights Reserved | Designed and Developed by Smarteyeapps</a>
+                2021 &copy; All Rights Reserved. LembarHarapan.id</a>
                 
                 <span>
                 <a><i class="fab fa-github"></i></a>
