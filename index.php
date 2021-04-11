@@ -12,21 +12,24 @@
     <!-- ################# Header Starts Here#######################--->
 
     <header id="menu-jk">
+        
         <nav  class="">
             <div class="container">
                 <div class="row nav-ro">
                    <div class="col-lg-3 col-md-4 col-sm-12">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-horizontal.png" alt="" >
+                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="" height="60">
                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
                    </div>
+                   <?php $menus = get_menu_items('top-menu'); ?>
                    <div id="menu" class="col-lg-7 col-md-8 d-none d-md-block no-padding">
                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about_us.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="contact_us.html">Contact Us</a></li>
+                            <?php if ($menus): ?>
+                            <?php foreach($menus as $item): ?>
+                                <li class="nav-item">
+                                    <a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a>
+                                </li>
+                            <?php endforeach; ?>
+                            <?php endif; ?>
                         </ul>
                    </div>
                    <div class="col-sm-2 d-none d-lg-block">
