@@ -51,7 +51,7 @@
                         <div class="row">
                             <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                                 <div class="slider-captions">
-                                    <h1 class="slider-title">Feeling stress or anxious?</h1>
+                                    <h1 class="slider-title">Merasa cemas atau stres?</h1>
                                     <p class="slider-text hidden-xs">We can help you conquer a wide range of psychological and emotional problems.</p>
                                     <a href="#" class="btn btn-success hidden-xs">View All Therapies</a>
                                 </div>
@@ -66,7 +66,7 @@
                     <div class="row">
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                             <div class="slider-captions">
-                                <h1 class="slider-title">It's time for better help.</h1>
+                                <h1 class="slider-title">Saatnya mencari bantuan</h1>
                                 <p class="slider-text hidden-xs">We can help you conquer a wide range of psychological and emotional problems.</p>
                                 <a href="#" class="btn btn-success hidden-xs">Schedule A Visit</a>
                             </div>
@@ -80,9 +80,9 @@
                     <div class="row">
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                             <div class="slider-captions">
-                                <h1 class="slider-title">Meet our psychiatrists</h1>
+                                <h1 class="slider-title">Temui psikolog kami</h1>
                                 <p class="slider-text hidden-xs">Our psychiatrists are highly skilled to meet your unique needs.</p>
-                                <a href="#" class="btn btn-success hidden-xs">Meet Psychiatrists</a>
+                                <a href="#" class="btn btn-success hidden-xs">Kontak Psikolog</a>
                             </div>
                         </div>
                     </div>
@@ -94,8 +94,8 @@
     <section class="our-blog container-fluid">
   		<div class="container">
   		<div class="session-title row">
-  		    <h2>Our Services</h2>
-  		    <p>Not the answer you're looking for? Printing and typesetting inLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s Lorem</p>
+  		    <h2>Layanan</h2>
+  		    <p></p>
   		</div>
   			<div class="col-sm-12 blog-cont">
   				<div class="row no-margin">
@@ -106,8 +106,8 @@
 
 							<div class="blog-single-det">
 							
-								<h6>Deperssion</h6>
-								<p>Not the answer you're looking for? Browse other questions tagged  is simply dummy text of the printing and typesetting in</p>
+								<h6>Konseling Online</h6>
+								<p>Dimasa pembatasan saat pandemi Covid-19 ini, kami menyediakan layanan konseling psikologis secara online.</p>
 								<a href="blog_single.html">
 									<button class="btn btn-success btn-sm">More Detail</button>
 								</a>
@@ -121,8 +121,8 @@
 
 							<div class="blog-single-det">
 								
-								<h6>Anxity</h6>
-								<p>Not the answer you're looking for? Browse other questions tagged  is simply dummy text of the printing and typesetting in</p>
+								<h6>Edukasi Online</h6>
+								<p>Meningkatkan pengetahuan masyarakat melalui acara online seperti webinar maupun acara online lain yang lain.</p>
 								<a href="blog_single.html">
 									<button class="btn btn-success btn-sm">More Detail</button>
 								</a>
@@ -137,8 +137,8 @@
 
 							<div class="blog-single-det">
 							
-								<h6>Relationship Issue</h6>
-								<p>Not the answer you're looking for? Browse other questions tagged  is simply dummy text of the printing and typesetting in</p>
+								<h6>Kolom Artikel</h6>
+								<p>Memberikan perspektif psikologis terhadap hal-hal yang mungkin kita alami sehari-hari melalui kolom artikel yang akan rutin kami berikan.</p>
 								<a href="blog_single.html">
 									<button class="btn btn-success btn-sm">More Detail</button>
 								</a>
@@ -283,9 +283,9 @@
                 <div class="col-md-4 col-sm-12">
                     <h2>About Us</h2>
                     <p>
-                        Smart Eye is a leading provider of information technology, consulting, and business process services. Our dedicated employees offer strategic insights, technological expertise and industry experience.
+                    Lembar Harapan merupakan sebuah platform berbasis kesehatan mental yang bertujuan untuk memberikan harapan kepada setiap individu untuk dapat bertumbuh dan meraih kebahagiaan dan kesejahteraan melalui perubahan perilaku, emosi, atau kognitif ke arah yang lebih baik. Lembar Harapan menjadi sumber informasi, memberikan edukasi, dan layanan konseling yang sesuai dengan kebutuhan setiap individu.
                     </p>
-                    <p>We focus on technologies that promise to reduce costs, streamline processes and speed time-to-market, Backed by our strong quality processes and rich experience managing global... </p>
+                
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <h2>Useful Links</h2>
@@ -300,12 +300,9 @@
                 <div class="col-md-4 col-sm-12 map-img">
                     <h2>Contact Us</h2>
                     <address class="md-margin-bottom-40">
-                        BlueDart <br>
-                        Marthandam (K.K District) <br>
-                        Tamil Nadu, IND <br>
-                        Phone: +91 9159669599 <br>
-                        Email: <a href="mailto:info@anybiz.com" class="">info@bluedart.in</a><br>
-                        Web: <a href="smart-eye.html" class="">www.bluedart.in</a>
+                        Phone/WA: 081237101636 <br>
+                        Email: <a href="mailto:info@lembarharapan.id" class="">info@lembarharapan.id</a><br>
+                        Web: <a href="#" class="">lembarharapan.id</a>
                     </address>
 
                 </div>
