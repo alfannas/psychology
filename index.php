@@ -124,19 +124,18 @@
     <div class="doctor-message">
         <div class="inner-lay">
             <div class="container">
+            <div class="session-title row">
+  		    <h2>Meet Our Psikolog</h2>
+  		    <p></p>
+              <br><br><br>
+  		</div>
                 <div class="row">
-
-
                     <div class="col-md-6 col-sm-12 doc-img">
                         <!-- <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/doctt.png" alt=""> -->
                     </div>
-                    <div class="col-md-6 col-sm-12 doc-det">
-                        <h2>Hello, I’m Doctor Sanjay</h2>
-                        <span>Expert Clinical Psychologist in Manhattan</span>
-
-                        <p>Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply text of thetypesetting Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of </p>
-
-                        <h4>Call me on : +123 98 8887</h4>
+                    <div class="col-md-6 col-sm-12 doc-det" style="height: 200px;">
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -144,102 +143,45 @@
         </div>
 
     </div>
+  	
+ 	<!-- ################# Our Blog Starts Here#######################--->  	
+  	
+     <section class="our-blog container-fluid">
+  		<div class="container">
+            <div class="session-title row">
+                <h2>Artikel</h2>
+                <p>Blog atau Artikel Terbaru</p>
+  		    </div>
+  			<div class="col-sm-12 blog-cont">
+  				<div class="row no-margin">
+                    <?php if (have_posts()): while(have_posts()): the_post(); ?>
+                        <div class="col-sm-4 blog-smk">
+                            <div class="blog-single">
+                                
+                                <?php if(has_post_thumbnail()): ?>
+                                    <a href="<?php the_permalink() ?>" target="_blank">
+                                        <img src="<?php the_post_thumbnail_url('medium'); ?>">
+                                    </a>
+                                <?php endif; ?>
 
-      	<!-- ################# Mission Vision Starts Here#######################--->
-  	
-    <!--
-  	<div class="mosion-vision">
-  	    <div class="container">
-  	        <div class="row">
-  	            <div class="col-lg-4 col-md-12">
-  	                <div class="single-dd">
-  	                    <h4>Our Mission</h4>
-  	                    <p>Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply text of thetypesetting Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of </p>
-  	                    
-  	                    
-  	                </div>
-  	            </div>
-  	            <div class="col-lg-4 col-md-12">
-  	                 <div class="single-dd">
-  	                    <h4>Our Vision</h4>
-  	                    <p>Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of ply text of the Ipsum is simply text of thetypesetting Ipsum is simply text of the stry simply <br>dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of </p>
-  	                    
-  	                    
-  	                </div>
-  	            </div>
-  	            <div class="col-lg-4 col-md-12">
-  	                 <div class="single-dd">
-  	                    <h4>Why Choos Us ?</h4>
-  	                    <p>Effective Psychological Therapy with a minimum of 5 years post qualification experience. </p>
-  	                    
-  	                    <p>Ipsum is simply text of the Lorem Ipsum is simply my text of ply text</p>
-  	                    
-  	                    <p>Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of ply text of the Ipsum f the Lorem Ipsum is simply my text of ply text </p>
-  	                    
-  	                    
-  	                </div>
-  	            </div>
-  	        </div>
-  	    </div>
-  	</div>
-    -->
-  	
- 	<!-- ################# Our Session Starts Here#######################--->  	
-  	
-  	<section class="sesion-type">
-  	    <div class="container">
-             <div class="session-title row">
-  		    <h2>Artikel</h2>
-  		    <p> </p>
+                                <div class="blog-single-det">
+                                    <span>Nov 12, 2018</span>
+                                    <h6><?php the_title();?></h6>
+                                    <p><?php the_excerpt();?></p>
+                                    <a href="<?php the_permalink() ?>">
+                                        <button class="btn btn-success btn-sm">Lihat Detail</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endwhile; endif; ?>
+					
+  				</div>
+  			</div>
+  			
   		</div>
-  	        <div class="row">
-  	            <div class="col-md-4 col-sm-6">
-  	                <div class="single-sess">
-  	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-1.jpg" alt="">
-  	                    <p>Mengenal Karakter anak yang bermacam macam.</p>
-  	                </div>
-  	            </div>
-  	            <div class="col-md-4 col-sm-6">
-  	                <div class="single-sess">
-  	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-2.jpg" alt="">
-  	                    <p>Bagaimana menjaga komunikasi dengan pasangan.</p>
-  	                </div>
-  	            </div>
-  	            <div class="col-md-4 col-sm-6">
-  	                <div class="single-sess">
-  	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-3.jpg" alt="">
-  	                    <p>Bulan ramadhan momen yang tepat menata jiwa.</p>
-  	                </div>
-  	            </div>
-  	            <!-- <div class="col-md-4 col-sm-6">
-  	                <div class="single-sess">
-  	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-4.jpg" alt="">
-  	                    <p>Group Therapy</p>
-  	                </div>
-  	            </div>
-  	            <div class="col-md-4 col-sm-6">
-  	                <div class="single-sess">
-  	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-5.jpg" alt="">
-  	                    <p>All Age Group</p>
-  	                </div>
-  	            </div>
-  	            <div class="col-md-4 col-sm-6">
-  	                <div class="single-sess sess-ok">
-  	                   <h4>Start Your Session today</h4>
-  	                    <p>Take the first step on your journey to feeling better. </p>
-  	                    <button class="btn btn-success">Book an Appointment</button>
-  	                </div>
-  	            </div> -->
-  	        </div>
-  	    </div>
-  	</section>
+  	</section> 
   	
   	<!-- ################# Testimonial Starts Here#######################--->
-    
-
-      <!-- ################# Footer Starts Here#######################--->
-
-
-    
 
 <?php get_template_part( 'footer' ); ?>
