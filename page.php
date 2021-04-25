@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<section class="page-section">
+<section class="container-fluid content">
     <div class="container">
         <h1><?php the_title();?></h1>
 
