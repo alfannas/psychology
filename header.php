@@ -35,7 +35,7 @@
                         </ul>
                    </div>
                    <div class="col-sm-2 d-none d-lg-block">
-                       <button class="btn btn-success">Book an Appointment</button>
+                       <button class="btn btn-success">Daftar Konseling</button>
                    </div>
                 </div>
             </div>

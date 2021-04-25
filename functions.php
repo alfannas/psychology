@@ -14,7 +14,7 @@ function load_stylesheets(){
     wp_register_style('owl.default', get_template_directory_uri() . '/assets/plugins/slider/css/owl.theme.default.css', array(), false, 'all');
     wp_enqueue_style('owl.default');
 
-    wp_register_style('style', get_template_directory_uri() . '/assets/css/style.css?v='.time(), array(), false, 'all');
+    wp_register_style('style', get_template_directory_uri() . '/assets/scss/style.css?v='.time(), array(), false, 'all');
     wp_enqueue_style('style');
 }
 add_action('wp_enqueue_scripts', 'load_stylesheets');

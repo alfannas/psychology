@@ -4,14 +4,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
-                    <h2>About Us</h2>
+                    <h2>Tentang</h2>
                     <p>
                     Lembar Harapan merupakan sebuah platform berbasis kesehatan mental yang bertujuan untuk memberikan harapan kepada setiap individu untuk dapat bertumbuh dan meraih kebahagiaan dan kesejahteraan melalui perubahan perilaku, emosi, atau kognitif ke arah yang lebih baik. Lembar Harapan menjadi sumber informasi, memberikan edukasi, dan layanan konseling yang sesuai dengan kebutuhan setiap individu.
                     </p>
                 
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <h2>Useful Links</h2>
+                    <h2>Tautan</h2>
                     <ul class="list-unstyled link-list">
                         <li><a ui-sref="about" href="#/about">About us</a><i class="fa fa-angle-right"></i></li>
                         <li><a ui-sref="portfolio" href="#/portfolio">Portfolio</a><i class="fa fa-angle-right"></i></li>
@@ -21,7 +21,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-12 map-img">
-                    <h2>Contact Us</h2>
+                    <h2>Kontak</h2>
                     <address class="md-margin-bottom-40">
                         Phone/WA: 081237101636 <br>
                         Email: <a href="mailto:info@lembarharapan.id" class="">info@lembarharapan.id</a><br>

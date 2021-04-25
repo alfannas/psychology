@@ -167,19 +167,21 @@ body{
     }
 }
 .btn-success{
-	background-color: #00ab9f;
-	border-color: #00ab9f;
+	background-color: $color-main;
+	border-color: $color-main;
+    color: $color-white;
 	&:hover{
-		background-color: #00ab9f !important;
-		border-color: #00ab9f !important;
+		background-color: $color-gold !important;
+		border-color: $color-gold !important;
+        color: $text-primary;
 	}
 	&:active{
-		background-color: #00ab9f !important;
-		border-color: #00ab9f !important;
+		background-color:  $color-main !important;
+		border-color:  $color-main !important;
 	}
 	&:focus{
-		background-color: #00ab9f !important;
-		border-color: #00ab9f !important;
+		background-color:  $color-main !important;
+		border-color:  $color-main !important;
 		box-shadow: none !important;
 	}
 }

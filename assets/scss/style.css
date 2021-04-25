@@ -219,23 +219,25 @@ body {
 }
 
 .btn-success {
-  background-color: #00ab9f;
-  border-color: #00ab9f;
+  background-color: #1C75BC;
+  border-color: #1C75BC;
+  color: #FFFFFF;
 }
 
 .btn-success:hover {
-  background-color: #00ab9f !important;
-  border-color: #00ab9f !important;
+  background-color: #FED206 !important;
+  border-color: #FED206 !important;
+  color: #444444;
 }
 
 .btn-success:active {
-  background-color: #00ab9f !important;
-  border-color: #00ab9f !important;
+  background-color: #1C75BC !important;
+  border-color: #1C75BC !important;
 }
 
 .btn-success:focus {
-  background-color: #00ab9f !important;
-  border-color: #00ab9f !important;
+  background-color: #1C75BC !important;
+  border-color: #1C75BC !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }

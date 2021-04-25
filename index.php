@@ -12,7 +12,7 @@
                             <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                                 <div class="slider-captions">
                                     <h1 class="slider-title">Merasa cemas atau stres?</h1>
-                                    <p class="slider-text hidden-xs">We can help you conquer a wide range of psychological and emotional problems.</p>
+                                    <p class="slider-text hidden-xs">Kami akan membantu Anda menghadapi masalah emosi atau psikologis Anda.</p>
                                     <a href="#" class="btn btn-success hidden-xs">View All Therapies</a>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                             <div class="slider-captions">
                                 <h1 class="slider-title">Saatnya mencari bantuan</h1>
-                                <p class="slider-text hidden-xs">We can help you conquer a wide range of psychological and emotional problems.</p>
+                                <p class="slider-text hidden-xs">Ketika Anda merasa tidak mampu menghadapi masalah Anda, maka ini saatnya Anda membutuhkan bantuan professional untuk membantu Anda.</p>
                                 <a href="#" class="btn btn-success hidden-xs">Schedule A Visit</a>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                             <div class="slider-captions">
                                 <h1 class="slider-title">Temui psikolog kami</h1>
-                                <p class="slider-text hidden-xs">Our psychiatrists are highly skilled to meet your unique needs.</p>
+                                <p class="slider-text hidden-xs">Psikolog kami secara professional akan membantu Anda menghadapi permasalahan dan melewati masa-masa sulit Anda.</p>
                                 <a href="#" class="btn btn-success hidden-xs">Kontak Psikolog</a>
                             </div>
                         </div>
@@ -56,18 +56,19 @@
   		<div class="session-title row">
   		    <h2>Layanan</h2>
   		    <p></p>
+              <br><br><br>
   		</div>
   			<div class="col-sm-12 blog-cont">
   				<div class="row no-margin">
   					<div class="col-lg-4 col-md-6 blog-smk">
 						<div class="blog-single">
 
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-1.jpg" alt="">
+								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-1.jpg" alt=""> -->
 
 							<div class="blog-single-det">
 							
-								<h6>Konseling Online</h6>
-								<p>Dimasa pembatasan saat pandemi Covid-19 ini, kami menyediakan layanan konseling psikologis secara online.</p>
+								<h6>Konseling Tatap Muka</h6>
+								<p>Pada masa pandemic ini, layanan ini belum tersedia. Namun di masa mendatang, kami menyediakan layanan konseling tatap muka.</p>
 								<a href="blog_single.html">
 									<button class="btn btn-success btn-sm">More Detail</button>
 								</a>
@@ -77,12 +78,12 @@
 					<div class="col-lg-4 col-md-6 blog-smk">
 						<div class="blog-single">
 
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-2.jpg" alt="">
+								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-2.jpg" alt=""> -->
 
 							<div class="blog-single-det">
 								
-								<h6>Edukasi Online</h6>
-								<p>Meningkatkan pengetahuan masyarakat melalui acara online seperti webinar maupun acara online lain yang lain.</p>
+								<h6>Konseling Online</h6>
+								<p>Kami menyediakan layanan konseling online untuk membantu Anda memenuhi kebutuhan psikologis Anda di masa pandemic Covid-19.</p>
 								<a href="blog_single.html">
 									<button class="btn btn-success btn-sm">More Detail</button>
 								</a>
@@ -93,12 +94,12 @@
 					<div class="col-lg-4 col-md-6 blog-smk">
 						<div class="blog-single">
 
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-3.jpg" alt="">
+								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-3.jpg" alt=""> -->
 
 							<div class="blog-single-det">
 							
-								<h6>Kolom Artikel</h6>
-								<p>Memberikan perspektif psikologis terhadap hal-hal yang mungkin kita alami sehari-hari melalui kolom artikel yang akan rutin kami berikan.</p>
+								<h6>Seminar dan Pelatihan Online</h6>
+								<p>Kami menyediakan layanan seminar dan pelatihan secara online untuk meningkatkan wawasan masyarakat mengenai isu-isu psikologis dan kesehatan mental.</p>
 								<a href="blog_single.html">
 									<button class="btn btn-success btn-sm">More Detail</button>
 								</a>
@@ -127,7 +128,7 @@
 
 
                     <div class="col-md-6 col-sm-12 doc-img">
-                        <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/doctt.png" alt="">
+                        <!-- <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/doctt.png" alt=""> -->
                     </div>
                     <div class="col-md-6 col-sm-12 doc-det">
                         <h2>Hello, I’m Doctor Sanjay</h2>
