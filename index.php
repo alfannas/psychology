@@ -1,44 +1,4 @@
-<!doctype html>
-<html <?php language_attributes(); ?>>
-
-<head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <?php wp_head(); ?>
-</head>
-
-<body>
-
-    <!-- ################# Header Starts Here#######################--->
-
-    <header id="menu-jk">
-        
-        <nav  class="">
-            <div class="container">
-                <div class="row nav-ro">
-                   <div class="col-lg-3 col-md-4 col-sm-12">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="" height="60">
-                       <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
-                   </div>
-                   <?php $menus = get_menu_items('top-menu'); ?>
-                   <div id="menu" class="col-lg-7 col-md-8 d-none d-md-block no-padding">
-                       <ul>
-                            <?php if ($menus): ?>
-                            <?php foreach($menus as $item): ?>
-                                <li class="nav-item">
-                                    <a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a>
-                                </li>
-                            <?php endforeach; ?>
-                            <?php endif; ?>
-                        </ul>
-                   </div>
-                   <div class="col-sm-2 d-none d-lg-block">
-                       <button class="btn btn-success">Book an Appointment</button>
-                   </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+<?php get_template_part( 'header' ); ?>
 
     <!-- ################# Slider Starts Here#######################--->
      <div class="slider">
@@ -277,56 +237,6 @@
       <!-- ################# Footer Starts Here#######################--->
 
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <h2>About Us</h2>
-                    <p>
-                    Lembar Harapan merupakan sebuah platform berbasis kesehatan mental yang bertujuan untuk memberikan harapan kepada setiap individu untuk dapat bertumbuh dan meraih kebahagiaan dan kesejahteraan melalui perubahan perilaku, emosi, atau kognitif ke arah yang lebih baik. Lembar Harapan menjadi sumber informasi, memberikan edukasi, dan layanan konseling yang sesuai dengan kebutuhan setiap individu.
-                    </p>
-                
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <h2>Useful Links</h2>
-                    <ul class="list-unstyled link-list">
-                        <li><a ui-sref="about" href="#/about">About us</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="portfolio" href="#/portfolio">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="products" href="#/products">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="gallery" href="#/gallery">Gallery</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="contact" href="#/contact">Contact us</a><i class="fa fa-angle-right"></i></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col-sm-12 map-img">
-                    <h2>Contact Us</h2>
-                    <address class="md-margin-bottom-40">
-                        Phone/WA: 081237101636 <br>
-                        Email: <a href="mailto:info@lembarharapan.id" class="">info@lembarharapan.id</a><br>
-                        Web: <a href="#" class="">lembarharapan.id</a>
-                    </address>
-
-                </div>
-            </div>
-        </div>
-        
-
-    </footer>
-    <div class="copy">
-            <div class="container">
-                2021 &copy; All Rights Reserved. LembarHarapan.id</a>
-                
-                <span>
-                <a><i class="fab fa-github"></i></a>
-                <a><i class="fab fa-google-plus-g"></i></a>
-                <a><i class="fab fa-pinterest-p"></i></a>
-                <a><i class="fab fa-twitter"></i></a>
-                <a><i class="fab fa-facebook-f"></i></a>
-        </span>
-            </div>
-
-        </div>
     
-        <?php wp_footer(); ?>
-    </body>
 
-</html>
+<?php get_template_part( 'footer' ); ?>
