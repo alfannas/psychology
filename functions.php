@@ -68,3 +68,12 @@ function get_menu_items($menu_name){
         return wp_get_nav_menu_items($menu->term_id);
     }
 }
+
+// Sidebar
+function psychology_sidebar() {
+    register_sidebar( array(
+        'name' => __( 'Primary Sidebar', 'psychology' ),
+        'id'   => 'sidebar-1',
+    ) );
+}
+add_action( 'widgets_init', 'psychology_sidebar' );
