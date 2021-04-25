@@ -77,3 +77,9 @@ function psychology_sidebar() {
     ) );
 }
 add_action( 'widgets_init', 'psychology_sidebar' );
+
+// excerpt
+function psychology_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'psychology_excerpt_length', 999 );
