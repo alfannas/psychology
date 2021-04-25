@@ -562,6 +562,10 @@ header .btn {
   margin-bottom: 0px;
 }
 
+.our-blog .blog-single img {
+  width: 100%;
+}
+
 .our-blog .blog-single-det {
   margin: auto;
   padding: 20px;
