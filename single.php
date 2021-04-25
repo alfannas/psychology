@@ -1,6 +1,7 @@
 <?php get_header();?>
 
-<div class="container pb-5" style="margin-top: 8rem;">
+<section class="container-fluid content">
+<div class="container">
     <h1><?php the_title();?></h1>
 
     <?php if(has_post_thumbnail()): ?>
@@ -11,5 +12,6 @@
         <?php the_content(); ?>
     <?php endwhile; endif; ?>
 </div>
+</section>
 
 <?php get_footer();?>
