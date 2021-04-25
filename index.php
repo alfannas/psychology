@@ -160,7 +160,7 @@
                                 
                                 <?php if(has_post_thumbnail()): ?>
                                     <a href="<?php the_permalink() ?>" target="_blank">
-                                        <img src="<?php the_post_thumbnail_url('medium'); ?>">
+                                        <img src="<?php the_post_thumbnail_url('portfolio'); ?>">
                                     </a>
                                 <?php endif; ?>
 
