@@ -146,6 +146,7 @@
 
       	<!-- ################# Mission Vision Starts Here#######################--->
   	
+    <!--
   	<div class="mosion-vision">
   	    <div class="container">
   	        <div class="row">
@@ -180,35 +181,36 @@
   	        </div>
   	    </div>
   	</div>
+    -->
   	
  	<!-- ################# Our Session Starts Here#######################--->  	
   	
   	<section class="sesion-type">
   	    <div class="container">
              <div class="session-title row">
-  		    <h2>Our Session Types</h2>
-  		    <p>Not the answer you're looking for? Printing and typesetting inLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s Lorem</p>
+  		    <h2>Artikel</h2>
+  		    <p> </p>
   		</div>
   	        <div class="row">
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
   	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-1.jpg" alt="">
-  	                    <p>Individual Therapy</p>
+  	                    <p>Mengenal Karakter anak yang bermacam macam.</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
   	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-2.jpg" alt="">
-  	                    <p>Cuple Therapy</p>
+  	                    <p>Bagaimana menjaga komunikasi dengan pasangan.</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
   	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-3.jpg" alt="">
-  	                    <p>online Session</p>
+  	                    <p>Bulan ramadhan momen yang tepat menata jiwa.</p>
   	                </div>
   	            </div>
-  	            <div class="col-md-4 col-sm-6">
+  	            <!-- <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
   	                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/session/therapy-4.jpg" alt="">
   	                    <p>Group Therapy</p>
@@ -226,7 +228,7 @@
   	                    <p>Take the first step on your journey to feeling better. </p>
   	                    <button class="btn btn-success">Book an Appointment</button>
   	                </div>
-  	            </div>
+  	            </div> -->
   	        </div>
   	    </div>
   	</section>
