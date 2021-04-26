@@ -542,6 +542,9 @@ header .btn {
   .our-blog .blog-cont {
     padding: 0px;
   }
+  .our-blog .blog-cont img {
+    width: 100%;
+  }
   .our-blog .blog-smk {
     padding: 0px;
   }

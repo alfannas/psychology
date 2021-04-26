@@ -56,7 +56,6 @@
   		<div class="session-title row">
   		    <h2>Layanan</h2>
   		    <p></p>
-              <br><br><br>
   		</div>
   			<div class="col-sm-12 blog-cont">
   				<div class="row no-margin">
@@ -106,11 +105,7 @@
 							</div>
 						</div>
 					</div>
-					
-					
-					
-				
-					
+
 					
   				</div>
   			</div>
