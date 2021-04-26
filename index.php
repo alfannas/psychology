@@ -163,7 +163,7 @@
                                 <?php endif; ?>
 
                                 
-                                    <span>Nov 12, 2018</span>
+                                    <span><?php the_date("d M Y");?></span>
                                     <h6><?php the_title();?></h6>
                                     <p><?php the_excerpt();?></p>
                                     <a href="<?php the_permalink() ?>">
