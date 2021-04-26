@@ -384,14 +384,13 @@ header{
         }
 		margin-bottom: 40px;
 	}
-	.blog-single-det{
+	.blog-single-plain{
 		margin: auto;
 		padding: 20px;
 		z-index: 99;
 		@include shado-3();
 		width: 90%;
 		position: relative;
-		margin-top: -80px;
 		background-color: #FFF;
 		.btn{
 			margin-top: 10px;
@@ -410,6 +409,10 @@ header{
 			font-size: 1rem;
 		}
 	}
+    .blog-single-det{
+        @extend .blog-single-plain;
+        margin-top: -80px;
+    }
 }
 
 /* ===================================== Doctor Say CSS ================================== */

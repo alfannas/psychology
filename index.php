@@ -55,7 +55,7 @@
   		<div class="container">
   		<div class="session-title row">
   		    <h2>Layanan</h2>
-  		    <p></p>
+  		    <p>Layanan utama kami</p>
   		</div>
   			<div class="col-sm-12 blog-cont">
   				<div class="row no-margin">
@@ -64,12 +64,12 @@
 
 								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-1.jpg" alt=""> -->
 
-							<div class="blog-single-det">
+							<div class="blog-single-plain">
 							
 								<h6>Konseling Tatap Muka</h6>
 								<p>Pada masa pandemic ini, layanan ini belum tersedia. Namun di masa mendatang, kami menyediakan layanan konseling tatap muka.</p>
 								<a href="blog_single.html">
-									<button class="btn btn-success btn-sm">More Detail</button>
+									<button class="btn btn-success btn-sm">Lihat Detail</button>
 								</a>
 							</div>
 						</div>
@@ -79,12 +79,12 @@
 
 								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-2.jpg" alt=""> -->
 
-							<div class="blog-single-det">
+                            <div class="blog-single-plain">
 								
 								<h6>Konseling Online</h6>
 								<p>Kami menyediakan layanan konseling online untuk membantu Anda memenuhi kebutuhan psikologis Anda di masa pandemic Covid-19.</p>
 								<a href="blog_single.html">
-									<button class="btn btn-success btn-sm">More Detail</button>
+									<button class="btn btn-success btn-sm">Lihat Detail</button>
 								</a>
 							</div>
 						</div>
@@ -95,12 +95,12 @@
 
 								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-3.jpg" alt=""> -->
 
-							<div class="blog-single-det">
+                            <div class="blog-single-plain">
 							
-								<h6>Seminar dan Pelatihan Online</h6>
+								<h6>Seminar dan Pelatihan</h6>
 								<p>Kami menyediakan layanan seminar dan pelatihan secara online untuk meningkatkan wawasan masyarakat mengenai isu-isu psikologis dan kesehatan mental.</p>
 								<a href="blog_single.html">
-									<button class="btn btn-success btn-sm">More Detail</button>
+									<button class="btn btn-success btn-sm">Lihat Detail</button>
 								</a>
 							</div>
 						</div>
@@ -120,7 +120,7 @@
         <div class="inner-lay">
             <div class="container">
             <div class="session-title row">
-  		    <h2>Meet Our Psikolog</h2>
+  		    <h2>Tim Kami</h2>
   		    <p></p>
               <br><br><br>
   		</div>
@@ -157,9 +157,12 @@
                                     <a href="<?php the_permalink() ?>" target="_blank">
                                         <img src="<?php the_post_thumbnail_url('portfolio'); ?>">
                                     </a>
+                                    <div class="blog-single-det">
+                                <?php else: ?>
+                                    <div class="blog-single-plain">
                                 <?php endif; ?>
 
-                                <div class="blog-single-det">
+                                
                                     <span>Nov 12, 2018</span>
                                     <h6><?php the_title();?></h6>
                                     <p><?php the_excerpt();?></p>
