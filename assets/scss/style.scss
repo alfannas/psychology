@@ -180,12 +180,12 @@ body{
         color: $text-primary;
 	}
 	&:active{
-		background-color:  $color-main !important;
-		border-color:  $color-main !important;
+		background-color:  $color-gold !important;
+		border-color:  $color-gold !important;
 	}
 	&:focus{
-		background-color:  $color-main !important;
-		border-color:  $color-main !important;
+		background-color:  $color-gold !important;
+		border-color:  $color-gold !important;
 		box-shadow: none !important;
 	}
 }
@@ -257,6 +257,11 @@ header{
             padding: 30px 20px;
             font-family: $mouse-500;
             font-size: 16px;
+            a{
+                &:hover{
+                    color: $color-main;
+                }
+            }
             @media screen and (max-width: 824px){
                 padding: 30px 16px;
             }
@@ -357,7 +362,7 @@ header{
     background-color: #FFF;
     padding-bottom: 100px ;
 	@media screen and (max-width: 600px){
-		padding: 20px 10px;
+		
 		.blog-cont{
 			padding: 0px;
             img{
@@ -512,6 +517,12 @@ header{
     padding-bottom: 0px;
     background-color: #444;
     color: #FFF;
+    a{
+        color: #FFF;
+        &:hover{
+            color: $color-gold;
+        }
+    }
     h2{
         font-size: 26px;
         margin-top: 10px;
@@ -530,6 +541,9 @@ header{
             i{
                 float: right;
             }
+            &:hover{
+                background-color: $color-main;
+            }
         }
     }
     .map-img{
@@ -537,6 +551,7 @@ header{
         font-size: 17px;
         padding-left: 20px;
     }
+    
     
 }
 .copy{

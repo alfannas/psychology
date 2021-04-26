@@ -242,13 +242,13 @@ body {
 }
 
 .btn-success:active {
-  background-color: #1C75BC !important;
-  border-color: #1C75BC !important;
+  background-color: #FED206 !important;
+  border-color: #FED206 !important;
 }
 
 .btn-success:focus {
-  background-color: #1C75BC !important;
-  border-color: #1C75BC !important;
+  background-color: #FED206 !important;
+  border-color: #FED206 !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
@@ -333,6 +333,10 @@ header ul li {
   padding: 30px 20px;
   font-family: "mouse-500", Arial, Helvetica, sans-serif;
   font-size: 16px;
+}
+
+header ul li a:hover {
+  color: #1C75BC;
 }
 
 @media screen and (max-width: 824px) {
@@ -536,9 +540,6 @@ header .btn {
 }
 
 @media screen and (max-width: 600px) {
-  .our-blog {
-    padding: 20px 10px;
-  }
   .our-blog .blog-cont {
     padding: 0px;
   }
@@ -736,6 +737,14 @@ header .btn {
   }
 }
 
+.footer a {
+  color: #FFF;
+}
+
+.footer a:hover {
+  color: #FED206;
+}
+
 .footer h2 {
   font-size: 26px;
   margin-top: 10px;
@@ -757,6 +766,10 @@ header .btn {
 
 .footer .link-list li i {
   float: right;
+}
+
+.footer .link-list li:hover {
+  background-color: #1C75BC;
 }
 
 .footer .map-img {

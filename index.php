@@ -13,7 +13,7 @@
                                 <div class="slider-captions">
                                     <h1 class="slider-title">Merasa cemas atau stres?</h1>
                                     <p class="slider-text hidden-xs">Kami akan membantu Anda menghadapi masalah emosi atau psikologis Anda.</p>
-                                    <a href="#" class="btn btn-success hidden-xs">View All Therapies</a>
+                                    <a href="#" class="btn btn-success hidden-xs">Kontak Psikolog</a>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +28,7 @@
                             <div class="slider-captions">
                                 <h1 class="slider-title">Saatnya mencari bantuan</h1>
                                 <p class="slider-text hidden-xs">Ketika Anda merasa tidak mampu menghadapi masalah Anda, maka ini saatnya Anda membutuhkan bantuan professional untuk membantu Anda.</p>
-                                <a href="#" class="btn btn-success hidden-xs">Schedule A Visit</a>
+                                <a href="#" class="btn btn-success hidden-xs">Kontak Psikolog</a>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                             <div class="slider-captions">
                                 <h1 class="slider-title">Temui psikolog kami</h1>
                                 <p class="slider-text hidden-xs">Psikolog kami secara professional akan membantu Anda menghadapi permasalahan dan melewati masa-masa sulit Anda.</p>
-                                <a href="#" class="btn btn-success hidden-xs">Kontak Psikolog</a>
+                                <a href="#" class="btn btn-success hidden-xs">Jadwalkan Sesi</a>
                             </div>
                         </div>
                     </div>
@@ -53,10 +53,10 @@
     
     <section class="our-blog container-fluid">
   		<div class="container">
-  		<div class="session-title row">
-  		    <h2>Layanan</h2>
-  		    <p>Layanan utama kami</p>
-  		</div>
+            <div class="session-title row">
+                <h2>Layanan</h2>
+                <p>Kami melayani berbagai layanan psikologis</p>
+  		    </div>
   			<div class="col-sm-12 blog-cont">
   				<div class="row no-margin">
   					<div class="col-lg-4 col-md-6 blog-smk">
@@ -67,7 +67,7 @@
 							<div class="blog-single-plain">
 							
 								<h6>Konseling Tatap Muka</h6>
-								<p>Pada masa pandemic ini, layanan ini belum tersedia. Namun di masa mendatang, kami menyediakan layanan konseling tatap muka.</p>
+								<p>Pada masa pandemic ini, layanan ini belum tersedia. Namun di masa mendatang, kami menyediakan layanan konseling professional secara tatap muka.</p>
 								<a href="blog_single.html">
 									<button class="btn btn-success btn-sm">Lihat Detail</button>
 								</a>
@@ -141,11 +141,11 @@
   	
  	<!-- ################# Our Blog Starts Here#######################--->  	
   	
-     <section class="our-blog container-fluid">
+    <section class="our-blog container-fluid">
   		<div class="container">
             <div class="session-title row">
                 <h2>Artikel</h2>
-                <p>Blog atau Artikel Terbaru</p>
+                <p>Artikel atau blog terbaru</p>
   		    </div>
   			<div class="col-sm-12 blog-cont">
   				<div class="row no-margin">
