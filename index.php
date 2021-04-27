@@ -120,17 +120,24 @@
         <div class="inner-lay">
             <div class="container">
             <div class="session-title row">
-  		    <h2>Tim Kami</h2>
+  		    <h2>Tim Utama</h2>
   		    <p></p>
-              <br><br><br>
   		</div>
                 <div class="row">
-                    <div class="col-md-6 col-sm-12 doc-img">
-                        <!-- <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/doctt.png" alt=""> -->
+                    <div class="col-md-4 col-sm-12 doc-det">
+                        <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/puput.png" alt="">
+                        <h2>Puput Mariyati, M.Psi., Psikolog</h2>
+                        <p>Psikolog Klinis</p>
                     </div>
-                    <div class="col-md-6 col-sm-12 doc-det" style="height: 200px;">
-                        
-                        
+                    <div class="col-md-4 col-sm-12 doc-det" >
+                        <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/syntia.png" alt="">
+                        <h2>Syntia Agung L.P., M.Psi., Psikolog</h2>
+                        <p>Psikolog Klinis</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 doc-det" >
+                        <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/fira.png" alt="">
+                        <h2>Zafirah H. Qaddura, M.Psi., Psikolog</h2>
+                        <p>Psikolog Klinis</p>
                     </div>
                 </div>
             </div>

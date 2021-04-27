@@ -613,7 +613,7 @@ header .btn {
 }
 
 .doctor-message .inner-lay {
-  background-color: rgba(0, 171, 159, 0.9);
+  background-color: rgba(28, 117, 188, 0.9);
   padding: 50px;
   padding-bottom: 0px;
   color: #FFF;
@@ -634,9 +634,14 @@ header .btn {
   margin-top: -140px;
 }
 
+.doctor-message .doc-det {
+  margin-bottom: 50px;
+}
+
 .doctor-message .doc-det h2 {
-  font-size: 42px;
+  font-size: 16px;
   margin-bottom: 0px;
+  text-align: center;
 }
 
 .doctor-message .doc-det span {
@@ -645,9 +650,9 @@ header .btn {
 }
 
 .doctor-message .doc-det p {
-  margin-top: 30px;
-  font-size: 18px;
-  text-indent: 20px;
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
 }
 
 .doctor-message .doc-det h4 {

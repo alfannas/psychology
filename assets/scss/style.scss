@@ -431,7 +431,7 @@ header{
     
  
     .inner-lay{
-        background-color: rgba(0,171,159, 0.9);
+        background-color: rgba(28, 117, 188, 0.9);
        @include big-padding();
         padding-bottom: 0px;
         color: #FFF;
@@ -444,18 +444,20 @@ header{
         }
     }
     .doc-det{
+        margin-bottom: 50px;
         h2{
-            font-size: 42px;
+            font-size: 16px;
             margin-bottom: 0px;
+            text-align: center;
         }
         span{
             font-weight: 600;
             margin-top: -5px;
         }
         p{
-            margin-top: 30px;
-            font-size: 18px;
-            text-indent: 20px;
+            font-size: 14px;
+            text-align: center;
+            font-style: italic;
         }
         h4{
             margin-top: 30px;
