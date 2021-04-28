@@ -1,5 +1,20 @@
 <?php get_header();?>
 
+<!--  ************************* Page Title Starts Here ************************** -->
+<div class="page-nav no-margin row">
+    <div class="container">
+        <div class="row">
+            <h2><?php the_title();?></h2>
+            <ul>
+                <li> <a href="<?php echo home_url();?>"><i class="fas fa-home"></i>Beranda</a></li>
+                <li> <a href="<?php echo home_url('/artikel');?>"><i class="fas fa-angle-double-right"></i>Article</a></li>
+                <li><i class="fas fa-angle-double-right"></i><?php the_title();?></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- ######## Page  Title End ####### -->
+
 <section class="container-fluid content">
     <div class="container">
         <div class="col-sm-12 blog-cont">
