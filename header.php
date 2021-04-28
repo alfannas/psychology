@@ -5,7 +5,6 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keyword" content="psikologi, harapan, bunuh diri, cemas, gelisah, stress">
-    <?php wp_head(); ?>
 
     <?php if(is_front_page()):?>
         <title><?php bloginfo('name');?></title>
@@ -13,9 +12,12 @@
     <?php else: ?>
         <title><?php echo get_the_title() . " - " . get_bloginfo('name');?></title>
         <?php if(have_posts()):?>
-            <meta name="description" content="<?php the_excerpt(); ?>">
+            <meta name="description" content="<?php echo get_the_excerpt(); ?>">
         <?php endif; ?>
     <?php endif; ?>
+    
+    <?php wp_head(); ?>
+
 </head>
 
 <body>
