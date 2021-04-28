@@ -50,7 +50,9 @@
                         </ul>
                    </div>
                    <div class="col-sm-2 d-none d-lg-block">
+                       <a href="<?php echo home_url('/daftar-konseling'); ?>">
                        <button class="btn btn-success">Daftar Konseling</button>
+                       </a>
                    </div>
                 </div>
             </div>

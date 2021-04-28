@@ -76,6 +76,10 @@ p {
   width: 100%;
 }
 
+p a {
+  color: #1C75BC;
+}
+
 .no-padding {
   padding: 0px;
 }
