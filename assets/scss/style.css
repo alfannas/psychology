@@ -946,6 +946,7 @@ header .btn {
   padding-top: 0px;
 }
 
+/* ===================================== Pagination Style  ================================== */
 .pagination {
   display: block;
   position: relative;
@@ -954,5 +955,10 @@ header .btn {
 
 .pagination span {
   margin: 0 10px;
+}
+
+/* ===================================== Contact Form 7 Style  ================================== */
+.wpcf7 {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
