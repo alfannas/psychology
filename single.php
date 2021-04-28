@@ -4,10 +4,10 @@
 <div class="page-nav no-margin row">
     <div class="container">
         <div class="row">
-            <h2><?php the_title();?></h2>
+            <h2>Artikel</h2>
             <ul>
                 <li> <a href="<?php echo home_url();?>"><i class="fas fa-home"></i>Beranda</a></li>
-                <li> <a href="<?php echo home_url('/artikel');?>"><i class="fas fa-angle-double-right"></i>Article</a></li>
+                <li> <a href="<?php echo home_url('/artikel');?>"><i class="fas fa-angle-double-right"></i>Artikel</a></li>
                 <li><i class="fas fa-angle-double-right"></i><?php the_title();?></li>
             </ul>
         </div>
@@ -21,7 +21,7 @@
   			<div class="row">
   				<div class="col-lg-8 col-md-8 blog-smk">
 					<div class="blog-single">
-                        <h1><?php the_title();?></h1>
+                        <h2><?php the_title();?></h2>
 
                         <?php if(has_post_thumbnail()): ?>
                             <img src="<?php the_post_thumbnail_url('hd720'); ?>" class="img-fluid mt-3 mb-3" >
