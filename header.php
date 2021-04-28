@@ -5,6 +5,16 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php wp_head(); ?>
+
+    <?php if(is_front_page()):?>
+        <title><?php bloginfo('name');?></title>
+        <meta description="Lembar Harapan merupakan sebuah platform berbasis kesehatan mental yang bertujuan untuk memberikan harapan kepada setiap individu untuk dapat bertumbuh dan meraih kebahagiaan.">
+    <?php else: ?>
+        <title><?php echo get_the_title() . " - " . get_bloginfo('name');?></title>
+        <?php if(have_posts()):?>
+            <meta description="<?php the_excerpt(); ?>">
+        <?php endif; ?>
+    <?php endif; ?>
 </head>
 
 <body>
