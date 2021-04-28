@@ -229,6 +229,14 @@ body {
   color: #444;
 }
 
+.page-nav ul li a:hover {
+  color: #1C75BC;
+}
+
+.page-nav ul li a:focus {
+  color: #FED206;
+}
+
 .btn-success {
   background-color: #1C75BC;
   border-color: #1C75BC;
@@ -568,6 +576,18 @@ header .btn {
 
 .our-blog .blog-single img {
   width: 100%;
+}
+
+.our-blog .blog-single a {
+  color: #444444;
+}
+
+.our-blog .blog-single a:hover {
+  color: #1C75BC;
+}
+
+.our-blog .blog-single a:focus {
+  color: #FED206;
 }
 
 .our-blog .blog-single-plain, .our-blog .blog-single-det {

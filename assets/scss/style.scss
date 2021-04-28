@@ -167,6 +167,12 @@ body{
         }
         a{
             color: #444;
+            &:hover{
+                color: $color-main;
+            }
+            &:focus{
+                color: $color-gold;
+            }
         }
     }
 }
@@ -386,6 +392,15 @@ header{
 		}
         img{
             width: 100%;
+        }
+        a{
+            color: $text-color;
+            &:hover{
+                color: $color-main;
+            }
+            &:focus{
+                color: $color-gold;
+            }
         }
 		margin-bottom: 40px;
 	}

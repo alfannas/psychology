@@ -48,7 +48,7 @@
 
                             
                                 <span><?php the_date("d M Y");?></span>
-                                <h6><?php the_title();?></h6>
+                                <h6><a href="<?php the_permalink() ?>"><?php the_title();?></a></h6>
                                 <p><?php the_excerpt();?></p>
                                 <a href="<?php the_permalink() ?>">
                                     <button class="btn btn-success btn-sm">Lihat Detail</button>
