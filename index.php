@@ -11,7 +11,7 @@
                         <div class="row">
                             <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                                 <div class="slider-captions">
-                                    <h1 class="slider-title">Merasa cemas atau stres?</h1>
+                                    <h2 class="slider-title">Merasa cemas atau stres?</h2>
                                     <p class="slider-text hidden-xs">Kami akan membantu Anda menghadapi masalah emosi atau psikologis Anda.</p>
                                     <a href="#" class="btn btn-success hidden-xs">Kontak Psikolog</a>
                                 </div>
@@ -26,7 +26,7 @@
                     <div class="row">
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                             <div class="slider-captions">
-                                <h1 class="slider-title">Saatnya mencari bantuan</h1>
+                                <h2 class="slider-title">Saatnya mencari bantuan</h2>
                                 <p class="slider-text hidden-xs">Ketika Anda merasa tidak mampu menghadapi masalah Anda, maka ini saatnya Anda membutuhkan bantuan professional untuk membantu Anda.</p>
                                 <a href="#" class="btn btn-success hidden-xs">Kontak Psikolog</a>
                             </div>
@@ -40,7 +40,7 @@
                     <div class="row">
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                             <div class="slider-captions">
-                                <h1 class="slider-title">Temui psikolog kami</h1>
+                                <h2 class="slider-title">Temui psikolog kami</h2>
                                 <p class="slider-text hidden-xs">Psikolog kami secara professional akan membantu Anda menghadapi permasalahan dan melewati masa-masa sulit Anda.</p>
                                 <a href="#" class="btn btn-success hidden-xs">Jadwalkan Sesi</a>
                             </div>

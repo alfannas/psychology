@@ -15,7 +15,7 @@
             <meta name="description" content="<?php echo get_the_excerpt(); ?>">
         <?php endif; ?>
     <?php endif; ?>
-    
+
     <?php wp_head(); ?>
 
 </head>
@@ -30,9 +30,11 @@
             <div class="container">
                 <div class="row nav-ro">
                    <div class="col-lg-3 col-md-4 col-sm-12">
-                       <a href="<?php echo home_url(); ?>">
-                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="" height="60">
-                       </a>
+                       <h1>
+                            <a href="<?php echo home_url(); ?>">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="<?php bloginfo('name');?>" height="60">
+                            </a>
+                        </h1>
                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
                    </div>
                    <?php $menus = get_menu_items('top-menu'); ?>
