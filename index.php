@@ -131,7 +131,7 @@
                     </div>
                     <div class="col-md-4 col-sm-12 doc-det" >
                         <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/syntia.png" alt="">
-                        <h2>Syntia Agung L. Puspita, M.Psi., Psikolog</h2>
+                        <h2>Syntia Agung L. P., M.Psi., Psikolog</h2>
                         <p>Psikolog Klinis</p>
                     </div>
                     <div class="col-md-4 col-sm-12 doc-det" >

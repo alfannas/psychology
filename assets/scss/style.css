@@ -125,7 +125,7 @@ p {
 }
 
 .content {
-  padding: 120px 50px 50px 50px;
+  padding-top: 120px;
   background-color: #FFF;
 }
 
@@ -924,5 +924,15 @@ header .btn {
 
 .pt-00 {
   padding-top: 0px;
+}
+
+.pagination {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+.pagination span {
+  margin: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */
