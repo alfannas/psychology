@@ -755,7 +755,6 @@ header .btn {
 /* ===================================== Fooer CSS ================================== */
 .footer {
   padding: 50px;
-  padding-bottom: 0px;
   background-color: #444;
   color: #FFF;
 }
