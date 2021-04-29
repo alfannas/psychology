@@ -807,6 +807,23 @@ header .btn {
   padding-left: 20px;
 }
 
+.footer .menu li {
+  padding: 10px;
+  border-bottom: 1px solid #6C6C6C;
+}
+
+.footer .menu li a {
+  color: #FFF;
+}
+
+.footer .menu li i {
+  float: right;
+}
+
+.footer .menu li:hover {
+  background-color: #1C75BC;
+}
+
 .copy {
   padding: 20px;
   background-color: #2E2E2E;

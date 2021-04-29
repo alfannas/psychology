@@ -69,7 +69,7 @@ function get_menu_items($menu_name){
     }
 }
 
-// Sidebar
+// Sidebar Widget
 function psychology_sidebar() {
     register_sidebar( array(
         'name' => __( 'Primary Sidebar', 'psychology' ),
@@ -77,6 +77,33 @@ function psychology_sidebar() {
     ) );
 }
 add_action( 'widgets_init', 'psychology_sidebar' );
+
+// Footer Left Widget
+function psychology_footer_left(){
+    register_sidebar( array(
+        'name'  => __( 'Footer Left', 'psychology' ),
+        'id'    => 'footer-left'
+    ));
+}
+add_action( 'widgets_init', 'psychology_footer_left');
+
+// Footer Center Widget
+function psychology_footer_center(){
+    register_sidebar( array(
+        'name'  => __( 'Footer Center', 'psychology' ),
+        'id'    => 'footer-center'
+    ));
+}
+add_action( 'widgets_init', 'psychology_footer_center');
+
+// Footer Right Widget
+function psychology_footer_right(){
+    register_sidebar( array(
+        'name'  => __( 'Footer Right', 'psychology' ),
+        'id'    => 'footer-right'
+    ));
+}
+add_action( 'widgets_init', 'psychology_footer_right');
 
 // excerpt
 function psychology_excerpt_length( $length ) {

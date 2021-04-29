@@ -571,6 +571,21 @@ header{
         font-size: 17px;
         padding-left: 20px;
     }
+    .menu{
+        li{
+            padding: 10px;
+            border-bottom: 1px solid #6C6C6C;
+            a{
+                color: #FFF;
+            }
+            i{
+                float: right;
+            }
+            &:hover{
+                background-color: $color-main;
+            }
+        }
+    }
     
     
 }
