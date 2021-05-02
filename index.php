@@ -68,9 +68,9 @@
 							
 								<h6>Konseling Tatap Muka</h6>
 								<p>Pada masa pandemic ini, layanan ini belum tersedia. Namun di masa mendatang, kami menyediakan layanan konseling professional secara tatap muka.</p>
-								<a href="blog_single.html">
+								<!-- <a href="blog_single.html">
 									<button class="btn btn-success btn-sm">Lihat Detail</button>
-								</a>
+								</a> -->
 							</div>
 						</div>
 					</div>
@@ -83,9 +83,9 @@
 								
 								<h6>Konseling Online</h6>
 								<p>Kami menyediakan layanan konseling online untuk membantu Anda memenuhi kebutuhan psikologis Anda di masa pandemic Covid-19.</p>
-								<a href="blog_single.html">
+								<!-- <a href="blog_single.html">
 									<button class="btn btn-success btn-sm">Lihat Detail</button>
-								</a>
+								</a> -->
 							</div>
 						</div>
 					</div>
@@ -99,9 +99,9 @@
 							
 								<h6>Seminar dan Pelatihan</h6>
 								<p>Kami menyediakan layanan seminar dan pelatihan secara online untuk meningkatkan wawasan masyarakat mengenai isu-isu psikologis dan kesehatan mental.</p>
-								<a href="blog_single.html">
+								<!-- <a href="blog_single.html">
 									<button class="btn btn-success btn-sm">Lihat Detail</button>
-								</a>
+								</a> -->
 							</div>
 						</div>
 					</div>
