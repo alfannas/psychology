@@ -382,6 +382,10 @@ header .btn {
   margin-top: 22px;
 }
 
+header h1 {
+  display: inline;
+}
+
 .scroll-to-fixed-fixed {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);

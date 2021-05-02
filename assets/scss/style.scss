@@ -293,6 +293,9 @@ header{
          font-family: $mouse-500;
         margin-top: 22px;
     }
+    h1{
+        display: inline;
+    }
 }
 .scroll-to-fixed-fixed{
       @include shado-1();
