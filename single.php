@@ -16,11 +16,11 @@
 <!-- ######## Page  Title End ####### -->
 
 <section class="our-blog container-fluid content">
-    <div class="blog-cont container">
+    <div class="container">
         <div class="col-sm-12">
   			<div class="row">
   				<div class="col-lg-8 col-md-8 blog-smk">
-					<div class="blog-single">
+					<div class="blog-cont">
                         <h2><?php the_title();?></h2>
 
                         <?php if(has_post_thumbnail()): ?>
