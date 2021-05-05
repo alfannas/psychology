@@ -393,6 +393,7 @@ header{
 	.blog-single{
 		text-align: center;
 		margin-top: 20px;
+        margin-bottom: 40px;
 		.figure{
 			margin-bottom: 0px;
 		}
@@ -408,7 +409,10 @@ header{
                 color: $color-gold;
             }
         }
-		margin-bottom: 40px;
+        li{
+            list-style: disc;
+            margin-left: 20px;
+        }
 	}
 	.blog-single-plain{
 		margin: auto;

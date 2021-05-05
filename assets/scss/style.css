@@ -598,6 +598,11 @@ header h1 {
   color: #FED206;
 }
 
+.our-blog .blog-single li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
 .our-blog .blog-single-plain, .our-blog .blog-single-det {
   margin: auto;
   padding: 20px;
