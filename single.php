@@ -15,9 +15,9 @@
 </div>
 <!-- ######## Page  Title End ####### -->
 
-<section class="container-fluid content">
-    <div class="container">
-        <div class="col-sm-12 blog-cont">
+<section class="our-blog container-fluid content">
+    <div class="blog-cont container">
+        <div class="col-sm-12">
   			<div class="row">
   				<div class="col-lg-8 col-md-8 blog-smk">
 					<div class="blog-single">
