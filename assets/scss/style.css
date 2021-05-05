@@ -572,6 +572,11 @@ header h1 {
   margin: auto;
 }
 
+.our-blog .blog-cont li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
 .our-blog .blog-single {
   text-align: center;
   margin-top: 20px;
@@ -596,11 +601,6 @@ header h1 {
 
 .our-blog .blog-single a:focus {
   color: #FED206;
-}
-
-.our-blog .blog-single li {
-  list-style: disc;
-  margin-left: 20px;
 }
 
 .our-blog .blog-single-plain, .our-blog .blog-single-det {

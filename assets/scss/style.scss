@@ -388,7 +388,10 @@ header{
 	.blog-cont{
 		float: none;
 		margin: auto;
-        
+        li{
+            list-style: disc;
+            margin-left: 20px;
+        }
 	}
 	.blog-single{
 		text-align: center;
@@ -408,10 +411,6 @@ header{
             &:focus{
                 color: $color-gold;
             }
-        }
-        li{
-            list-style: disc;
-            margin-left: 20px;
         }
 	}
 	.blog-single-plain{

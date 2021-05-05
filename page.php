@@ -15,7 +15,7 @@
 <!-- ######## Page  Title End ####### -->
 
 <section class="our-blog container-fluid">
-    <div class="container">
+    <div class="blog-cont container">
         <?php if (have_posts()): while(have_posts()): the_post(); ?>
             <?php the_content(); ?>
         <?php endwhile; endif; ?>
