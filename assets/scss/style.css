@@ -574,12 +574,14 @@ header h1 {
 
 .our-blog .blog-cont ul li {
   list-style: disc;
-  margin-left: 20px;
+  margin-left: 25px;
+  padding-left: 10px;
 }
 
 .our-blog .blog-cont ol li {
   list-style: decimal;
-  margin-left: 20px;
+  margin-left: 25px;
+  padding-left: 10px;
 }
 
 .our-blog .blog-single {
