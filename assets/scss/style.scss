@@ -388,9 +388,17 @@ header{
 	.blog-cont{
 		float: none;
 		margin: auto;
-        li{
-            list-style: disc;
-            margin-left: 20px;
+        ul{
+            li{
+                list-style: disc;
+                margin-left: 20px;
+            }
+        }
+        ol{
+            li{
+                list-style: decimal;
+                margin-left:20px;
+            }
         }
 	}
 	.blog-single{

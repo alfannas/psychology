@@ -572,8 +572,13 @@ header h1 {
   margin: auto;
 }
 
-.our-blog .blog-cont li {
+.our-blog .blog-cont ul li {
   list-style: disc;
+  margin-left: 20px;
+}
+
+.our-blog .blog-cont ol li {
+  list-style: decimal;
   margin-left: 20px;
 }
 
