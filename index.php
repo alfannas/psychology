@@ -27,7 +27,7 @@
                         <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
                             <div class="slider-captions">
                                 <h2 class="slider-title">Saatnya mencari bantuan</h2>
-                                <p class="slider-text hidden-xs">Ketika Anda merasa tidak mampu menghadapi masalah Anda, maka ini saatnya Anda membutuhkan bantuan professional untuk membantu Anda.</p>
+                                <p class="slider-text hidden-xs">Ketika Anda merasa tidak mampu menghadapi masalah Anda, maka ini saatnya Anda membutuhkan bantuan profesional untuk membantu Anda.</p>
                                 <a href="<?php echo home_url('/kontak'); ?>" class="btn btn-success hidden-xs">Kontak Psikolog</a>
                             </div>
                         </div>
