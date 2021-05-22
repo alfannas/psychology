@@ -35,11 +35,11 @@
         2021 &copy; All Rights Reserved. LembarHarapan.id</a>
         
         <span>
-        <a><i class="fab fa-github"></i></a>
+        <!-- <a><i class="fab fa-github"></i></a>
         <a><i class="fab fa-google-plus-g"></i></a>
         <a><i class="fab fa-pinterest-p"></i></a>
         <a><i class="fab fa-twitter"></i></a>
-        <a><i class="fab fa-facebook-f"></i></a>
+        <a><i class="fab fa-facebook-f"></i></a> -->
         </span>
     </div>
 
