@@ -41,7 +41,9 @@
                             
                             <h6>Konseling Online</h6>
                             <p>Kami menyediakan layanan konseling online untuk membantu Anda memenuhi kebutuhan psikologis Anda di masa pandemic Covid-19.</p>
-                            
+                            <a href="<?php echo home_url('daftar-konseling');?>">
+                                <button class="btn btn-success btn-sm">Daftar Konseling</button>
+                            </a>
                         </div>
                     </div>
                 </div>
