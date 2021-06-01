@@ -67,7 +67,7 @@
 							<div class="blog-single-plain">
 							
 								<h6>Konseling Tatap Muka</h6>
-								<p>Pada masa pandemic ini, layanan ini belum tersedia. Namun di masa mendatang, kami menyediakan layanan konseling professional secara tatap muka.</p>
+								<p>Pada masa pandemi ini, layanan ini belum tersedia. Namun di masa mendatang, kami menyediakan layanan konseling secara tatap muka.</p>
 								<!-- <a href="blog_single.html">
 									<button class="btn btn-success btn-sm">Lihat Detail</button>
 								</a> -->
@@ -82,7 +82,7 @@
                             <div class="blog-single-plain">
 								
 								<h6>Konseling Online</h6>
-								<p>Kami menyediakan layanan konseling online untuk membantu Anda memenuhi kebutuhan psikologis Anda di masa pandemic Covid-19.</p>
+								<p>Kami menyediakan layanan konseling online untuk membantu Anda memenuhi kebutuhan psikologis Anda di masa pandemi Covid-19.</p>
 								<!-- <a href="blog_single.html">
 									<button class="btn btn-success btn-sm">Lihat Detail</button>
 								</a> -->
