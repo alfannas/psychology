@@ -51,141 +51,46 @@
         </div>
     </div>
     
-    <section class="our-blog container-fluid">
-  		<div class="container">
-            <div class="session-title row">
-                <h2>Layanan</h2>
-                <p>Kami melayani berbagai layanan psikologis</p>
-  		    </div>
-  			<div class="col-sm-12 blog-cont">
-  				<div class="row no-margin">
-  					<div class="col-lg-4 col-md-6 blog-smk">
-						<div class="blog-single">
-
-								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-1.jpg" alt=""> -->
-
-							<div class="blog-single-plain">
-							
-								<h6>Konseling Tatap Muka</h6>
-								<p>Pada masa pandemi ini, layanan ini belum tersedia. Namun di masa mendatang, kami menyediakan layanan konseling secara tatap muka.</p>
-								<!-- <a href="blog_single.html">
-									<button class="btn btn-success btn-sm">Lihat Detail</button>
-								</a> -->
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 blog-smk">
-						<div class="blog-single">
-
-								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-2.jpg" alt=""> -->
-
-                            <div class="blog-single-plain">
-								
-								<h6>Konseling Online</h6>
-								<p>Kami menyediakan layanan konseling online untuk membantu Anda memenuhi kebutuhan psikologis Anda di masa pandemi Covid-19.</p>
-								<!-- <a href="blog_single.html">
-									<button class="btn btn-success btn-sm">Lihat Detail</button>
-								</a> -->
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-lg-4 col-md-6 blog-smk">
-						<div class="blog-single">
-
-								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/services/service-3.jpg" alt=""> -->
-
-                            <div class="blog-single-plain">
-							
-								<h6>Seminar dan Pelatihan</h6>
-								<p>Kami menyediakan layanan seminar dan pelatihan secara online untuk meningkatkan wawasan masyarakat mengenai isu-isu psikologis dan kesehatan mental.</p>
-								<!-- <a href="blog_single.html">
-									<button class="btn btn-success btn-sm">Lihat Detail</button>
-								</a> -->
-							</div>
-						</div>
-					</div>
-
-					
-  				</div>
-  			</div>
-  			
-  		</div>
-  	</section>  
-  	
-  	<!-- ################# Doctors Message Starts Here#######################--->
-
-
-    <div class="doctor-message">
-        <div class="inner-lay">
-            <div class="container">
-            <div class="session-title row">
-  		    <h2>Tim Utama</h2>
-  		    <p></p>
-  		</div>
+ 	<!-- ################# Our Blog Starts Here#######################--->  	
+    <section class="our-blog container-fluid content">
+        <div class="container">
+            <div class="col-sm-12">
                 <div class="row">
-                    <div class="col-md-4 col-sm-12 doc-det">
-                        <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/puput.png" alt="">
-                        <h2>Puput Mariyati, M.Psi., Psikolog</h2>
-                        <p>Psikolog Klinis</p>
+                    <div class="col-lg-8 col-md-8 blog-smk">
+                        <div class="blog-cont">
+                            <?php if (have_posts()): while(have_posts()): the_post(); ?>
+                                <div class="blog-smk">
+                                    <div class="blog-single">
+                                        
+                                        <?php if(has_post_thumbnail()): ?>
+                                            <a href="<?php the_permalink() ?>" target="_blank">
+                                                <img src="<?php the_post_thumbnail_url('portfolio'); ?>">
+                                            </a>
+                                            <div class="blog-single-det">
+                                        <?php else: ?>
+                                            <div class="blog-single-plain">
+                                        <?php endif; ?>
+
+                                        
+                                            <span><?php the_date("d M Y");?></span>
+                                            <h6><a href="<?php the_permalink() ?>"><?php the_title();?></a></h6>
+                                            <p><?php the_excerpt();?></p>
+                                            <a href="<?php the_permalink() ?>">
+                                                <button class="btn btn-success btn-sm">Lihat Detail</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endwhile; endif; ?>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 doc-det" >
-                        <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/syntia.png" alt="">
-                        <h2>Syntia Agung L. P., M.Psi., Psikolog</h2>
-                        <p>Psikolog Klinis</p>
-                    </div>
-                    <div class="col-md-4 col-sm-12 doc-det" >
-                        <img  src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/fira.png" alt="">
-                        <h2>Zafirah H. Qaddura, M.Psi., Psikolog</h2>
-                        <p>Psikolog Klinis</p>
+                    <div class="col-lg-4 col-md-4">
+                        <?php get_sidebar();?>
                     </div>
                 </div>
             </div>
-
         </div>
-
-    </div>
-  	
- 	<!-- ################# Our Blog Starts Here#######################--->  	
-  	
-    <section class="our-blog container-fluid">
-  		<div class="container">
-            <div class="session-title row">
-                <h2>Artikel</h2>
-                <p>Artikel atau blog terbaru</p>
-  		    </div>
-  			<div class="col-sm-12 blog-cont">
-  				<div class="row no-margin">
-                    <?php if (have_posts()): while(have_posts()): the_post(); ?>
-                        <div class="col-sm-4 blog-smk">
-                            <div class="blog-single">
-                                
-                                <?php if(has_post_thumbnail()): ?>
-                                    <a href="<?php the_permalink() ?>" target="_blank">
-                                        <img src="<?php the_post_thumbnail_url('portfolio'); ?>">
-                                    </a>
-                                    <div class="blog-single-det">
-                                <?php else: ?>
-                                    <div class="blog-single-plain">
-                                <?php endif; ?>
-
-                                
-                                    <span><?php the_date("d M Y");?></span>
-                                    <h6><a href="<?php the_permalink() ?>"><?php the_title();?></a></h6>
-                                    <p><?php the_excerpt();?></p>
-                                    <a href="<?php the_permalink() ?>">
-                                        <button class="btn btn-success btn-sm">Lihat Detail</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endwhile; endif; ?>
-					
-  				</div>
-  			</div>
-  			
-  		</div>
-  	</section> 
+    </section>
   	
   	<!-- ################# Testimonial Starts Here#######################--->
 
