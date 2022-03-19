@@ -56,32 +56,45 @@
         <div class="container">
             <div class="col-sm-12">
                 <div class="row">
-                    <div class="col-lg-8 col-md-8 blog-smk">
+                    <div class="col-lg-8 col-md-8">
                         <div class="blog-cont">
                             <?php if (have_posts()): while(have_posts()): the_post(); ?>
-                                <div class="blog-smk">
-                                    <div class="blog-single">
-                                        
-                                        <?php if(has_post_thumbnail()): ?>
+                                <div class="col-sm-12 mb-4">
+                                    <div class="row">
+                                    <?php if(has_post_thumbnail()): ?>
+                                        <div class="col-sm-4">
                                             <a href="<?php the_permalink() ?>" target="_blank">
                                                 <img src="<?php the_post_thumbnail_url('portfolio'); ?>">
                                             </a>
-                                            <div class="blog-single-det">
-                                        <?php else: ?>
-                                            <div class="blog-single-plain">
-                                        <?php endif; ?>
-
-                                        
-                                            <span><?php the_date("d M Y");?></span>
+                                        </div>
+                                        <div class="col-sm-8">
+                                
                                             <h6><a href="<?php the_permalink() ?>"><?php the_title();?></a></h6>
                                             <p><?php the_excerpt();?></p>
                                             <a href="<?php the_permalink() ?>">
-                                                <button class="btn btn-success btn-sm">Lihat Detail</button>
+                                               Baca Selengkapnya
                                             </a>
                                         </div>
+                                    <?php else: ?>
+                                        <div class="col-sm-12">
+                                            
+                                            <h6><a href="<?php the_permalink() ?>"><?php the_title();?></a></h6>
+                                            <p><?php the_excerpt();?></p>
+                                            <a href="<?php the_permalink() ?>">
+                                                Baca Selengkapnya
+                                            </a>
+                                        </div>
+                                    <?php endif; ?>
                                     </div>
                                 </div>
                             <?php endwhile; endif; ?>
+                            <?php if (function_exists("pagination")): ?>
+                                <div class="container">
+                                    <?php pagination($wp_query->max_num_pages); ?>
+                                </div>
+                            <?php endif; ?>
+                            
+                            <?php wp_reset_postdata(); ?>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4">
