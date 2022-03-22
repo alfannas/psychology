@@ -4,17 +4,15 @@
      <div class="slider">
         <!-- Set up your HTML -->
         <div class="owl-carousel ">
-            <div class="slider-img">
-                <div class="item">
-                    <div class="slider-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slider/slider1.jpeg" alt=""></div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
-                                <div class="slider-captions">
-                                    <h2 class="slider-title">Merasa cemas atau stres?</h2>
-                                    <p class="slider-text hidden-xs">Kami akan membantu Anda menghadapi masalah emosi atau psikologis Anda.</p>
-                                    <a href="<?php echo home_url('/kontak'); ?>" class="btn btn-success hidden-xs">Kontak Psikolog</a>
-                                </div>
+            <div class="item">
+                <div class="slider-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/slider/slider1.jpeg" alt=""></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                            <div class="slider-captions">
+                                <h2 class="slider-title">Merasa cemas atau stres?</h2>
+                                <p class="slider-text hidden-xs">Kami akan membantu Anda menghadapi masalah emosi atau psikologis Anda.</p>
+                                <a href="<?php echo home_url('/kontak'); ?>" class="btn btn-success hidden-xs">Kontak Psikolog</a>
                             </div>
                         </div>
                     </div>
