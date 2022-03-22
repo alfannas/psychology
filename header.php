@@ -22,8 +22,9 @@
 
     <?php wp_head(); ?>
 
-    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5218968416015314"
+     crossorigin="anonymous"></script>
+
 </head>
 
 <body>
