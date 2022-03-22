@@ -141,3 +141,24 @@ function pagination($pages = '', $range = 4){
         echo "</div>\n";
     }
 }
+
+function pagination_simple($pages = ''){
+    global $paged;
+    
+    if(empty($paged)) $paged = 1;
+
+    if($pages == ''){
+        global $wp_query;
+        $pages = $wp_query->max_num_pages;
+        if(!$pages){
+            $pages = 1;
+        }
+    }
+
+    if($pages != 1){
+        echo "<div>";
+        if($paged > 1 && $showitems < $pages) echo "<a class=\"btn btn-success \" href='".get_pagenum_link($paged - 1)."'>&lsaquo; Sebelumnya</a>";
+        if ($paged < $pages && $showitems < $pages) echo "<a class=\"btn btn-success float-right\" href=\"".get_pagenum_link($paged + 1)."\">Selanjutnya &rsaquo;</a>";
+        echo "</div>\n";
+    }
+}

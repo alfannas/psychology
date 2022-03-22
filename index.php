@@ -86,9 +86,9 @@
                                     </div>
                                 </div>
                             <?php endwhile; endif; ?>
-                            <?php if (function_exists("pagination")): ?>
+                            <?php if (function_exists("pagination_simple")): ?>
                                 <div class="container">
-                                    <?php pagination($wp_query->max_num_pages); ?>
+                                    <?php pagination_simple($wp_query->max_num_pages); ?>
                                 </div>
                             <?php endif; ?>
                             
