@@ -60,14 +60,14 @@
                                 <div class="col-sm-12 mb-4">
                                     <div class="row">
                                     <?php if(has_post_thumbnail()): ?>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-5">
                                             <a href="<?php the_permalink() ?>" target="_blank">
                                                 <img src="<?php the_post_thumbnail_url('portfolio'); ?>">
                                             </a>
                                         </div>
-                                        <div class="col-sm-8">
+                                        <div class="col-sm-7">
                                 
-                                            <h6><a href="<?php the_permalink() ?>"><?php the_title();?></a></h6>
+                                            <h5><a href="<?php the_permalink() ?>"><?php the_title();?></a></h5>
                                             <p><?php the_excerpt();?></p>
                                             <a href="<?php the_permalink() ?>">
                                                Baca Selengkapnya
