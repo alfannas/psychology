@@ -241,6 +241,10 @@ body {
   color: #FED206;
 }
 
+.category ul li {
+  padding: 10px 15px 10px 0;
+}
+
 .btn-success {
   background-color: #1C75BC;
   border-color: #1C75BC;

@@ -179,6 +179,13 @@ body{
         }
     }
 }
+.category{
+    ul{
+        li{
+            padding: 10px 15px 10px 0;
+        }
+    }
+}
 .btn-success{
 	background-color: $color-main;
 	border-color: $color-main;

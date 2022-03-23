@@ -48,7 +48,23 @@
             </div>
         </div>
     </div>
-    
+    <!-- ################# Category Menu Starts Here#######################--->
+    <?php $menus = get_menu_items('topic-menu'); ?>
+    <!-- <div class="container">
+        <div class="row"> -->
+        <?php if ($menus): ?>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light category">
+                <ul class="navbar-nav">
+                    <?php foreach($menus as $item): ?>
+                        <li class="nav-item">
+                            <a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </nav>
+        <?php endif; ?>
+        <!-- </div>
+    </div> -->
  	<!-- ################# Our Blog Starts Here#######################--->  	
     <section class="our-blog container-fluid content">
         <div class="container">
