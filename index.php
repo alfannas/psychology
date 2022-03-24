@@ -50,9 +50,8 @@
     </div>
     <!-- ################# Category Menu Starts Here#######################--->
     <?php $menus = get_menu_items('topic-menu'); ?>
-    <!-- <div class="container">
-        <div class="row"> -->
-        <?php if ($menus): ?>
+    <?php if ($menus): ?>
+        <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light category">
                 <ul class="navbar-nav">
                     <?php foreach($menus as $item): ?>
@@ -62,9 +61,8 @@
                     <?php endforeach; ?>
                 </ul>
             </nav>
-        <?php endif; ?>
-        <!-- </div>
-    </div> -->
+        </div>
+    <?php endif; ?>
  	<!-- ################# Our Blog Starts Here#######################--->  	
     <section class="our-blog container-fluid content">
         <div class="container">
