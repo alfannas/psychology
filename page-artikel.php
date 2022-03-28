@@ -31,8 +31,8 @@
 
 <section class="our-blog container-fluid">
     <div class="container">
-        <div class="col-sm-12 blog-cont">
-            <div class="row no-margin">
+        <div class="row no-margin">
+            <div class="col-sm-12 blog-cont">
                 <?php if ( have_posts() ) : while(have_posts()): the_post();?>
                     <div class="col-sm-4 blog-smk">
                         <div class="blog-single">

@@ -17,8 +17,8 @@
 
 <section class="our-blog container-fluid">
     <div class="container">
-        <div class="col-sm-12 blog-cont">
-            <div class="row no-margin">
+        <div class="row no-margin">
+            <div class="col-sm-12 blog-cont">
                 <div class="col-lg-4 col-md-6 blog-smk">
                     <div class="blog-single">
 
