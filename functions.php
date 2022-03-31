@@ -113,7 +113,7 @@ function psychology_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'psychology_excerpt_length', 999 );
 
 // Pagination
-function pagination($pages = '', $range = 4){
+function pagination_all($pages = '', $range = 4){
     $showitems = $range * 2 + 1;
 
     global $paged;
