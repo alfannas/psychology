@@ -69,7 +69,7 @@
 
             <?php if (function_exists("pagination_all")): ?>
                 <div class="container">
-                    <?php pagination_all($wp_query->max_num_pages); ?>
+                    <?php pagination_all($wp_query->max_num_pages,2); ?>
                 </div>
             <?php endif; ?>
             

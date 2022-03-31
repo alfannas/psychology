@@ -130,15 +130,15 @@ function pagination_all($pages = '', $range = 4){
 
     if($pages != 1){
         echo "<div class=\"pagination\"><span>Page ".$paged." of ".$pages."</span>";
-        if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a class=\"btn btn-success btn-sm mr-2\" href='".get_pagenum_link(1)."'>&laquo; First</a>";
-        if($paged > 1 && $showitems < $pages) echo "<a class=\"btn btn-success btn-sm mr-2\" href='".get_pagenum_link($paged - 1)."'>&lsaquo; Previous</a>";
+        if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a class=\"btn btn-success btn-sm\" href='".get_pagenum_link(1)."'>&laquo; First</a>";
+        if($paged > 1 && $showitems < $pages) echo "<a class=\"btn btn-success btn-sm\" href='".get_pagenum_link($paged - 1)."'>&lsaquo; Previous</a>";
         for ($i=1; $i <= $pages; $i++){
             if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems )){
                 echo ($paged == $i)? "<span class=\"current btn btn-default btn-sm\">".$i."</span>":"<a href='".get_pagenum_link($i)."' class=\"inactive btn btn-success btn-sm\">".$i."</a>";
             }
         }
-        if ($paged < $pages && $showitems < $pages) echo "<a class=\"btn btn-success btn-sm mr-2\" href=\"".get_pagenum_link($paged + 1)."\">Next &rsaquo;</a>";
-        if ($paged < $pages-1 && $paged+$range-1 < $pages && $showitems < $pages) echo "<a class=\"btn btn-success btn-sm mr-2\" href='".get_pagenum_link($pages)."'>Last &raquo;</a>";
+        if ($paged < $pages && $showitems < $pages) echo "<a class=\"btn btn-success btn-sm\" href=\"".get_pagenum_link($paged + 1)."\">Next &rsaquo;</a>";
+        if ($paged < $pages-1 && $paged+$range-1 < $pages && $showitems < $pages) echo "<a class=\"btn btn-success btn-sm\" href='".get_pagenum_link($pages)."'>Last &raquo;</a>";
         echo "</div>\n";
     }
 }
